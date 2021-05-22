@@ -6,4 +6,4 @@ echo $JAVA_HOME;
 export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64;
 echo $JAVA_HOME;
 cd apache-jmeter-5.0/bin;
-./jmeter -n -t /var/lib/jenkins/workspace/${JOB_NAME}/SCM.jmx -Jbuildid1=${BUILD_NUMBER} -l /var/lib/jenkins/workspace/${JOB_NAME}/result1.csv;
+./jmeter -n -t /var/lib/jenkins/workspace/${JOB_NAME}/SCM.jmx -Jbuildid1=id-${BUILD_NUMBER} -l /var/lib/jenkins/workspace/${JOB_NAME}/result1.csv;
