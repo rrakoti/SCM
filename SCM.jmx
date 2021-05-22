@@ -966,7 +966,7 @@ ${boundary}--</stringProp>
               </elementProp>
               <elementProp name="buildid" elementType="Argument">
                 <stringProp name="Argument.name">buildid</stringProp>
-                <stringProp name="Argument.value">id-${__P(buildid1)}</stringProp>
+                <stringProp name="Argument.value">${__P(buildid1)}</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
             </collectionProp>
