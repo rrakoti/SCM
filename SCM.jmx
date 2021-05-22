@@ -964,6 +964,11 @@ ${boundary}--</stringProp>
                 <stringProp name="Argument.value"></stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
+              <elementProp name="buildid" elementType="Argument">
+                <stringProp name="Argument.name">buildid</stringProp>
+                <stringProp name="Argument.value">${__P(buildid1)}</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
             </collectionProp>
           </elementProp>
           <stringProp name="classname">io.github.delirius325.jmeter.backendlistener.elasticsearch.ElasticsearchBackendClient</stringProp>
