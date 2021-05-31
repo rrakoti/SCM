@@ -881,7 +881,7 @@ ${boundary}--</stringProp>
               </elementProp>
               <elementProp name="es.index" elementType="Argument">
                 <stringProp name="Argument.name">es.index</stringProp>
-                <stringProp name="Argument.value">jmetertest2</stringProp>
+                <stringProp name="Argument.value">jmetertest1</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
               <elementProp name="es.timestamp" elementType="Argument">
