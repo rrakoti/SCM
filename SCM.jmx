@@ -30,7 +30,7 @@
           </elementProp>
           <elementProp name="hostname1" elementType="Argument">
             <stringProp name="Argument.name">hostname1</stringProp>
-            <stringProp name="Argument.value">192.168.3.101</stringProp>
+            <stringProp name="Argument.value">192.168.3.102</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
         </collectionProp>
@@ -964,6 +964,11 @@ ${boundary}--</stringProp>
                 <stringProp name="Argument.value"></stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
+              <elementProp name="buildid" elementType="Argument">
+                <stringProp name="Argument.name">buildid</stringProp>
+                <stringProp name="Argument.value">id-${__P(buildid1)}</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
             </collectionProp>
           </elementProp>
           <stringProp name="classname">io.github.delirius325.jmeter.backendlistener.elasticsearch.ElasticsearchBackendClient</stringProp>
@@ -1003,7 +1008,7 @@ ${boundary}--</stringProp>
               <connectTime>true</connectTime>
             </value>
           </objProp>
-          <stringProp name="filename">C:\TestLabShare\result1 (3).csv</stringProp>
+          <stringProp name="filename"></stringProp>
         </ResultCollector>
         <hashTree/>
       </hashTree>
