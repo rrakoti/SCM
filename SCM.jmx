@@ -881,7 +881,7 @@ ${boundary}--</stringProp>
               </elementProp>
               <elementProp name="es.index" elementType="Argument">
                 <stringProp name="Argument.name">es.index</stringProp>
-                <stringProp name="Argument.value">jmetertest1</stringProp>
+                <stringProp name="Argument.value">jmetertest2</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
               <elementProp name="es.timestamp" elementType="Argument">
@@ -964,11 +964,6 @@ ${boundary}--</stringProp>
                 <stringProp name="Argument.value"></stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
-              <elementProp name="buildid" elementType="Argument">
-                <stringProp name="Argument.name">buildid</stringProp>
-                <stringProp name="Argument.value">id-${__P(buildid1)}</stringProp>
-                <stringProp name="Argument.metadata">=</stringProp>
-              </elementProp>
             </collectionProp>
           </elementProp>
           <stringProp name="classname">io.github.delirius325.jmeter.backendlistener.elasticsearch.ElasticsearchBackendClient</stringProp>
@@ -1008,7 +1003,7 @@ ${boundary}--</stringProp>
               <connectTime>true</connectTime>
             </value>
           </objProp>
-          <stringProp name="filename"></stringProp>
+          <stringProp name="filename">C:\TestLabShare\result1 (3).csv</stringProp>
         </ResultCollector>
         <hashTree/>
       </hashTree>
