@@ -1021,7 +1021,7 @@ ${boundary}--</stringProp>
               </elementProp>
               <elementProp name="influxdbUrl" elementType="Argument">
                 <stringProp name="Argument.name">influxdbUrl</stringProp>
-                <stringProp name="Argument.value">http://192.168.3.51:8086/write?db=database1</stringProp>
+                <stringProp name="Argument.value">http://localhost:8086/write?db=database1</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
               <elementProp name="application" elementType="Argument">
